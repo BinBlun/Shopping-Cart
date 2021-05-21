@@ -23,7 +23,7 @@
 
         <EditText
             android:id="@+id/search_text"
-            android:layout_width="297dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="15dp"
             android:hint="@string/search"
@@ -31,17 +31,6 @@
             android:textCursorDrawable="@null"
             android:textSize="16sp"
             app:backgroundTint="@color/light_gray" />
-
-        <ImageButton
-            android:id="@+id/search_icon"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:background="@drawable/search_icon_background"
-            android:padding="6dp"
-            app:srcCompat="@android:drawable/ic_search_category_default"
-            android:scaleType="fitCenter"
-            app:tint="@color/green" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

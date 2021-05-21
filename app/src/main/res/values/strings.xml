@@ -7,4 +7,6 @@
     <string name="sum_price">Sum price</string>
     <string name="total_price">Total</string>
     <string name="check_out">Check out</string>
+    <string name="num_quartity">3</string>
+    <string name="sum_cost">240000</string>
 </resources>
